@@ -1,15 +1,3 @@
-import java.util.Scanner;
-import java.util.Date;
-public class Bankxyz {
-  public static void main(String[] args) {
-    
-    Cuenta obj1 = new Cuenta("Mantonio","DC700");
-    Cuenta obj2 = new Cuenta("Maria","DT330");
-    Date date = new Date();
-    obj1.showMenu();
-    obj2.showMenu();
-  }
-}
 
 class Cuenta {
   int balance;
